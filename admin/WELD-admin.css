@@ -1,0 +1,84 @@
+
+
+
+/* Post Input Box Styles */
+
+
+label.weld-post-field-label {
+	display: inline-block;
+	min-width: 70px;
+	font-weight: bold;
+	text-align: right;
+	}
+
+.weld-hiddeninput {
+	display: none;
+	}
+
+.weld_process_queue_new_tr td {
+	background-color: rgb(240,240,220);
+	}
+
+#weld-serverGroups {
+	border-collapse: collapse;
+	}
+
+#weld-serverGroups thead td, #weld-serverGroups thead td {
+	font-size: 75%;
+	font-weight: bold;
+	padding-right: 10px;
+	}
+
+#weld-serverGroups tbody td {
+	vertical-align: top;
+	padding-right: 5%;
+	border-collapse: collapse;
+	margin: 0;
+	}
+
+#weld-serverGroups tbody td label {
+	position: relative;
+	display: inline-block;
+	min-width: 40%;
+	overflow: hidden;
+	clear: both;
+	}
+
+.weld_hardening_pluginexcludes_cb {
+	display: inline-block;
+	min-width: 300px;
+	margin: 5px 2%;
+	}
+
+.weld_annotation {
+	font-size: 75%;
+	font-style: italic;
+	}
+
+.weld-serverGroups-removeServer {
+	float: right;
+	width: 20%;
+	min-width: 26px;
+	text-align: center;
+	}
+
+.weld-serverGroups-removeServer + input {
+	width: 75%;
+	min-width: 90px;
+	}
+
+.weld-log-list > li {
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	margin: 0 16px 16px 0;
+	}
+
+.weld-status-stoplight {
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	}

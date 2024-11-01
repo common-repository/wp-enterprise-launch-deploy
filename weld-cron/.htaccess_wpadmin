@@ -1,0 +1,6 @@
+<FilesMatch "^.*">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+
+Options All -Indexes
